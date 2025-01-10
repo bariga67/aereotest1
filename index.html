@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voli Malpensa - New York</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Voli tra Malpensa e New York</h1>
+    </header>
+    <main>
+        <section class="search-form">
+            <h2>Cerca un volo</h2>
+            <label for="search">Aeroporto di partenza:</label>
+            <select id="search" name="search">
+                <option value="Malpensa">Malpensa</option>
+                <option value="New York (JFK)">New York (JFK)</option>
+            </select>
+            <button id="searchBtn">Cerca</button>
+        </section>
+
+        <section class="flight-results">
+            <h2>Risultati della ricerca</h2>
+            <div id="results"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Aeroporti</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
